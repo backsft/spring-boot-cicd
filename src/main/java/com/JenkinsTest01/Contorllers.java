@@ -13,4 +13,8 @@ public class Contorllers {
 		return "welcome to jenkins";
 	}
 
+	@GetMapping("/test")
+	public String test() {
+		return "welcome to test";
+	}
 }
